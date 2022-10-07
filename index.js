@@ -1,3 +1,5 @@
+var PORT = process.env.PORT || 4000;
+
 var express = require('express');
 var socket = require('socket.io');
 
