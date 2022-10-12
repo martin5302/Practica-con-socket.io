@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 var http = require('http');
 
 var express = require('express');
@@ -7,7 +7,7 @@ var socket = require('socket.io');
 // App setup
 var app = express();
 var server = app.listen(PORT, function(){
-    console.log('listening for requests on port 4100,');
+    console.log('listening for requests on port 4000,');
 });
 
 // Static files
